@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@blackbox-vision/react-qr-reader": "^5.0.0",
+    "ether": "^0.0.9",
+    "ethers": "^6.13.0",
+    "hardhat": "^2.22.5",
+    "ipfs-http-client": "^60.0.1",
+    "qrcode": "^1.5.3",
+    "web3": "^4.9.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0"
+  }
+}

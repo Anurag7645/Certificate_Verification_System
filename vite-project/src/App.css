@@ -1,0 +1,30 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+input, button {
+  display: block;
+  margin: 1rem auto;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+img {
+  margin-top: 1rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.card {
+  padding: 2em;
+  background-color: var(--color-background);
+  border-radius: var(--border-radius);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.read-the-docs {
+  color: #888;
+}
