@@ -1,6 +1,6 @@
-## Certificate_Verification_System
+# Certificate_Verification_System
 
-# Summary Report: Implementation of Certificate Verification System
+## Summary Report: Implementation of Certificate Verification System
 Project Overview
 The Certificate Verification System project allows for the creation, storage, and verification of certificates using blockchain technology and IPFS (InterPlanetary File System). The system leverages Ethereum smart contracts to securely store certificate data and Pinata's IPFS service to store the certificate files. The frontend of the application is built using Vite and React, while the backend involves deploying a smart contract using Hardhat and interacting with the blockchain using Ether.js.
 Tools and Technologies Used
