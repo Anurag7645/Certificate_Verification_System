@@ -7,7 +7,7 @@ import { QrReader } from '@blackbox-vision/react-qr-reader';
 import red from "../../artifacts/contracts/CertificateVerification.sol/CertificateVerification.json"
 
 
-const contractAddress = '0xfE1D462DC56F1AeFEb07fCd95bceFc3a594fa6f0'; // Replace with your contract address
+const contractAddress = import.meta.env.VITE_CONTRACT_ADDRESS // Replace with your contract address
 
 const App = () => {
   const [file, setFile] = useState(null);
