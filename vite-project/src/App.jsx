@@ -85,6 +85,7 @@ const App = () => {
       institution,
       issueDate,
       ipfsHash,
+      fileUrl :`https://gateway.pinata.cloud/ipfs/${ipfsHash}`,
     });
     try {
       const url = await QRCode.toDataURL(qrData);
